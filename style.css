@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s ease-in-out;
+    user-select: none;
+
+}
+.container{
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+    height:50vh;
+    width:45vh;
+    margin: 30px auto;
+    border: 2px solid black;
+    
+}
+.box{
+    border:2px solid black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2rem;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+
+}
+.design:hover {
+    background-color:#28B2D7;
+}
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom{
+    width:100%;
+}
+.footer-bottom p{
+    margin-top: auto;
+}
+
+.footer-container .footer-bottom p:hover {
+    color:#FF0000;
+} 
+.heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 170px;
+    height: 80px;
+    color: azure; 
+    position: relative;
+    margin: auto;
+    
+
+}
+.bg{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 85px;
+        height: 42px;
+        background-color:#28B2D7;
+        z-index: -1;
+        
+    }
+
+
+     
+.turn-for{
+    font-size: 24px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    grid-column-start: 1;
+     grid-column-end:3 ;
+     margin: 0;
+}
+
+.turn-box{
+ /* background-color:#28B2D7 ; */
+   font-size:26px;
+   font-weight: bold;
+   border: 2px solid black;
+   /* cursor: pointer; */
+   
+}
+.turn-box:nth-child(even){
+    border-right: none;
+}
+
+
+ main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:45px;
+}
+body{
+    background-color:#5D6D7E;
+    text-align: center;
+    padding-top: 5vh;
+}
+.full-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+
+#play-again{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
+    background-color: #28B2D7;
+    border-radius: 10px;
+    border: 2px solid  #24292e;
+    display: none;
+    cursor: pointer;
+
+    
+} 
+#play-again:hover {
+    padding: 10px 40px;
+    background-color: #CD506C;
+    color: black;
+}
+
+
+
+
